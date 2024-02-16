@@ -21,7 +21,7 @@ public class BMIController {
         System.out.println("Home Page Requested, locale = " + locale);
         return "input";
     }
-
+// @RequestMapgit ping
     @RequestMapping(value = "/bmi", method = RequestMethod.POST)
     public String result(@RequestParam("height") double heightInInches,
                          @RequestParam("weight") double weightInPounds,
